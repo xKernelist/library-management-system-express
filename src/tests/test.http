@@ -1,0 +1,101 @@
+GET http://localhost:3000/
+Accept: application/json
+
+###
+GET http://localhost:3000/1
+Accept: application/json
+
+###
+GET http://localhost:3000/3
+Accept: application/json
+
+###
+GET http://localhost:3000/4
+Accept: application/json
+
+###
+GET http://localhost:3000/5
+Accept: application/json
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "title": "1984",
+  "author": "George Orwell",
+  "ISBN": "9780451524935",
+  "genre": "Distopia",
+  "publicationYear": "1949-06-08",
+  "image": "https://example.com/1984-cover.jpg"
+}
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "title": "Dune",
+  "author": "Frank Herbert",
+  "ISBN": "9780441172719",
+  "genre": "Bilim Kurgu",
+  "publicationYear": "1965-06-01",
+  "image": "https://example.com/dune-cover.jpg"
+}
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "title": "To Kill a Mockingbird",
+  "author": "Harper Lee",
+  "ISBN": "9780061120084",
+  "genre": "Roman",
+  "publicationYear": "1960-07-11",
+  "image": "https://example.com/to-kill-a-mockingbird-cover.jpg"
+}
+
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "title": "A Short History of Nearly Everything",
+  "author": "Bill Bryson",
+  "ISBN": "9780767908184",
+  "genre": "Tarih",
+  "publicationYear": "2003-05-06",
+  "image": "https://example.com/a-short-history-of-nearly-everything-cover.jpg"
+}
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "title": "A Short History of Nearly Everything",
+  "author": "Bill Bryson",
+  "ISBN": "9780767908184",
+  "genre": "Tarih",
+  "publicationYear": "2003-05-06",
+  "image": "https://example.com/a-short-history-of-nearly-everything-cover.jpg"
+}
+
+###
+PUT http://localhost:3000/2
+Content-Type: application/json
+
+{
+  "title": "Treasure Island",
+  "author": "Robert Louis Stevenson",
+  "ISBN": "9780143106752",
+  "genre": "Macera",
+  "publicationYear": "1883-11-14",
+  "image": "https://example.com/treasure-island-cover.jpg"
+}
+
+###
+DELETE http://localhost:3000/5
+Accept: application/json
